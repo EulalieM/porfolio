@@ -1,0 +1,76 @@
+.con-body {
+    height: 100vh;
+    background-color: #FAFAFA;
+    color: var(--color-dark-blue);
+}
+
+.con-content {
+    width: 460px;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.con-position {
+    margin-top: 6em;
+}
+
+.con-content h2 {
+    text-align: center;
+}
+
+.con-description {
+    margin: 80px 200px 50px 200px;
+    text-align: center;
+}
+
+.con-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.con-field > label {
+    position: absolute;
+    top: -1000em;
+}
+
+.con-field > input, textarea {
+    background-color: #FAFAFA;
+    margin: 15px 0 15px 0;
+    border-width: 0px 0px 1px 0px;
+    padding: 2px 0 2px 0;
+}
+
+.con-separator {
+    height: 400px;
+    margin: 9px 39px 9px 39px;
+}
+
+.con-form-validate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.short-input {
+    width: 220px;
+}
+
+.long-input {
+    width: 460px;
+}
+
+.con-info {
+    display: flex;
+    margin: 15px 10px 15px 10px;;
+}
+
+.con-info img {
+    margin-right: 40px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

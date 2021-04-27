@@ -1,0 +1,20 @@
+/*=========================================================
+CSS PAGE REALISATIONS
+==========================================================*/
+
+.r-project {
+    display: flex;
+}
+
+.r-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.r-picture {
+    margin: 10px;
+}

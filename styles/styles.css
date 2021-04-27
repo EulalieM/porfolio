@@ -1,0 +1,154 @@
+/*=========================================================
+CSS COMMUN
+==========================================================*/
+
+:root {
+    --color-blue: #037BC4;
+    --color-dark-blue: #010C13;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+h1 {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 10px 0 10px 0;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: var(--color-dark-blue);
+    font-weight: 500;
+}
+
+a:hover {
+    color: var(--color-blue);
+}
+
+a:active {
+    color: var(--color-blue);
+}
+
+p, label, input, textarea {
+    font-family: 'Open Sans', sans-serif;
+}
+
+input:focus, textarea:focus {
+    outline: 0;
+}
+
+/* ----- Header ----- */
+
+header {
+    background-color: white;
+    box-shadow: 0px 1px 2px  rgba(180, 180, 180, 40%);
+}
+
+.header {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+nav {
+    width: 500px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+/* à ajouter : ::before pour changer la couleur du lien sur lequel on est actuellement */
+
+/* ----- Main ----- */
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.m-position {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.cta {
+    background-color: var(--color-blue);
+    color: white;
+    width: 160px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--color-blue);
+}
+
+.cta:hover {
+    background-color: white;
+    color: var(--color-blue);
+}
+
+/* ----- Footer ----- */
+
+.footer {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.f-socialnetworks {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-credit {
+    font-style: italic;
+}
+
+.f-icon {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    background-color: var(--color-blue);
+    border-radius: 50%;
+    box-shadow: -1px 1px 3px grey;
+    justify-content: center;
+}
+
+.icon-position {
+    display: flex;
+}
+
+.f-icon:hover {
+    background-color: grey;
+}
