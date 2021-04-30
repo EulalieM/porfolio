@@ -1,0 +1,31 @@
+/*=========================================================
+PAGES PROJETS
+==========================================================*/
+
+.pro-description {
+    margin: 0px 200px 0px 200px;
+}
+
+.pro-description ul {
+    padding: 0;
+}
+
+.pro-description ul li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pro-nav {
+    text-align: center;
+    margin: 25px 0 25px 0;
+}
+
+.pro-details {
+    display: flex;
+    text-align: center;
+    line-height: 25px;
+}
+
+.pro-details li {
+    width: 300px;
+    margin: 0px 10px 0px 10px;
+}

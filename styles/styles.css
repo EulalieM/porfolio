@@ -1,21 +1,48 @@
 /*=========================================================
-CSS COMMUN
+COULEURS
 ==========================================================*/
 
 :root {
     --color-blue: #037BC4;
     --color-dark-blue: #010C13;
+    --color-background: #FAFAFA;
+    --color-shadow: rgba(180, 180, 180, 50%);
 }
 
+/*=========================================================
+CUSTOM SCROLL BAR
+/!\ A CHANGER, pas compatible avec tous les navigateurs
+==========================================================*/
+
+::-webkit-scrollbar-track {
+    background-color: #f5f5f5e0;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-blue);
+    border-radius: 8px;
+}
+
+/*=========================================================
+CSS COMMUN
+==========================================================*/
+
 body {
-    background-color: #FAFAFA;
+    background-color: var(--color-background);
+    color: var(--color-dark-blue);
 }
 
 h1 {
     font-family: 'El Messiri', sans-serif;
     font-size: 70px;
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin: 40px 0 40px 0;
 }
 
 h2 {
@@ -26,11 +53,16 @@ h2 {
     margin: 10px 0 10px 0;
 }
 
-button {
-    font-family: 'Montserrat', sans-serif;
+@media screen and (max-width: 1260px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
 }
 
-a {
+a, button {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: var(--color-dark-blue);
@@ -47,46 +79,21 @@ a:active {
 
 p, label, input, textarea {
     font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
 }
 
 input:focus, textarea:focus {
     outline: 0;
 }
 
-/* ----- Header ----- */
-
-header {
-    background-color: white;
-    box-shadow: 0px 1px 2px  rgba(180, 180, 180, 40%);
-}
-
-.header {
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-}
-
-nav {
-    width: 500px;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-between;
-}
-
 li {
     list-style: none;
 }
 
-/* à ajouter : ::before pour changer la couleur du lien sur lequel on est actuellement */
-
-/* ----- Main ----- */
-
 main {
     max-width: 1000px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .m-position {
@@ -96,7 +103,11 @@ main {
     justify-content: space-between;
 }
 
-
+@media screen and (max-width: 1260px) {
+    .m-position {
+        max-width: 800px;
+    }
+}
 
 .cta {
     background-color: var(--color-blue);
@@ -108,6 +119,7 @@ main {
     justify-content: center;
     align-items: center;
     border: 2px solid var(--color-blue);
+    box-shadow: 0 1px 3px 1px var(--color-shadow);
 }
 
 .cta:hover {
@@ -115,14 +127,76 @@ main {
     color: var(--color-blue);
 }
 
-/* ----- Footer ----- */
+/*=========================================================
+CSS INCLUDE HEADER
+==========================================================*/
 
-.footer {
+header {
+    background-color: white;
+    box-shadow: 0px 1px 2px  var(--color-shadow);
+}
+
+.h-header {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.h-logo {
+    margin-bottom: -3px;
+}
+
+.h-nav {
+    width: 500px;
+}
+
+.h-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* responsive */
+
+@media screen and (min-width: 1261px) {
+
+}
+
+@media screen and (max-width: 1260px) {
+    header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 860px) {
+}
+
+@media screen and (max-width: 530px) { 
+}
+
+@media screen and (max-width: 410px) { 
+}
+
+@media screen and (max-width: 320px){ 
+}
+
+
+/*=========================================================
+CSS INCLUDE HEADER
+==========================================================*/
+
+.f-footer {
     max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: auto;
+    margin-top: 40px;
 }
 
 .f-socialnetworks {
@@ -131,24 +205,76 @@ main {
     justify-content: space-between;
 }
 
-.f-credit {
-    font-style: italic;
-}
-
 .f-icon {
     display: flex;
     height: 40px;
     width: 40px;
     background-color: var(--color-blue);
     border-radius: 50%;
-    box-shadow: -1px 1px 3px grey;
+    box-shadow: 0 1px 3px 1px var(--color-shadow);
     justify-content: center;
-}
-
-.icon-position {
-    display: flex;
 }
 
 .f-icon:hover {
     background-color: grey;
+}
+
+.f-icon-position {
+    display: flex;
+}
+
+/* responsive */
+
+@media screen and (min-width: 1261px) {
+
+}
+
+@media screen and (max-width: 1260px) {
+    .f-footer {
+        max-width: 800px;
+    }
+    
+}
+
+@media screen and (max-width: 860px) {
+    .f-footer {
+        flex-direction: column;
+        margin: 20px auto 20px auto;
+        max-width: 470px;
+    }
+    .m-position {
+        max-width: 470px;
+    }
+}
+
+@media screen and (max-width: 530px) { 
+    .f-footer {
+        flex-direction: column;
+        margin: 10px auto 10px auto;
+        max-width: 370px;
+    }
+    .f-text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 410px) { 
+    .f-footer {
+        max-width: 310px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .m-position {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 320px){ 
+    .f-footer {
+        max-width: 290px;
+    }
 }

@@ -1,10 +1,8 @@
-<div class="header">
+<div class="h-header">
 
-    <div>
-        <p>Eulalie M.</p>
-    </div>
+    <a href="presentation.php" class="h-logo"><img src="../img/eulalie_photo_mini.png" alt=""></a>
 
-    <nav>
+    <nav class="h-nav">
         <ul>
             <li><a href="presentation.php">Présentation</a></li>
             <li><a href="competences.php">Compétences</a></li>

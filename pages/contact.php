@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/styles-contact.css">
+    <link rel="shortcut icon" href="../img/favicon.ico">
 </head>
 
 <body class="con-body">
@@ -19,7 +20,7 @@
         <?php include('../includes/header.php'); ?>
     </header>
 
-    <main>
+    <main class="con-main">
 
         <div>
 
@@ -33,19 +34,19 @@
                     <h2>Informations de contact</h2>
                     <div>
                         <div class="con-info">
-                            <img src="../pics/localisation.svg" alt="">
+                            <img src="../img/localisation.svg" alt="">
                             <p>Angoulême - Bordeaux - France télétravail</p>
                         </div>
                         <div class="con-info">
-                            <img src="../pics/mail.svg" alt="">
+                            <img src="../img/mail.svg" alt="">
                             <p><a href="mailto:eulalie.m16000@gmail.com">eulalie.m16000@gmail.com</a></p>
                         </div>
                         <div class="con-info">
-                            <img src="../pics/tel.svg" alt="">
+                            <img src="../img/tel.svg" alt="">
                             <p><a href="tel:+615701564">06 15 70 15 64</a></p>
                         </div>
                         <div class="con-info">
-                            <img src="../pics/linkedin.svg" alt="">
+                            <img src="../img/linkedin.svg" alt="">
                             <p><a href="">Linkedin</a></p>
                         </div>   
                     </div>
@@ -99,7 +100,7 @@
                 </div>
 
             </div>
-
+            
         </div>
         
     </main>

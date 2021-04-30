@@ -1,12 +1,13 @@
 /*=========================================================
-CSS PAGE REALISATIONS
+PAGE REALISATIONS
 ==========================================================*/
 
-.r-project {
+.rea-project {
     display: flex;
+    margin: 0 0 70px 0;
 }
 
-.r-description {
+.rea-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +16,14 @@ CSS PAGE REALISATIONS
     margin: 10px;
 }
 
-.r-picture {
+.rea-picture {
     margin: 10px;
+}
+
+.rea-img {
+    border-radius: 25px;
+}
+
+.rea-cta {
+    margin: 10px 0 10px 0;
 }

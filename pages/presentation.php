@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/styles-presentation.css">
+    <link rel="shortcut icon" href="../img/favicon.ico">
 </head>
 
 <body class="pre-body">
@@ -19,11 +20,10 @@
         <?php include('../includes/header.php'); ?>
     </header>
 
-    <main>
-        <div class="m-position">
-
+    <main class="pre-main">
+        <div class="m-position" id="pre-desktop">
             <div class="pre-content">
-                <h1>Eulalie Moreau</h1>
+                <h1 class="pre-name">Eulalie Moreau</h1>
                 <h2>Design &<br>
                 Développement web</h2>
                 <p class="pre-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus augue ex, ac iaculis est vehicula non. Nullam nec tincidunt justo, nec tristique tortor</p>
@@ -31,9 +31,20 @@
             </div>
 
             <div class="pre-content">
-                <img src="../pics/eulalie_photo.png" alt="Photo Eulalie Moreau" class="pre-photo">
+                <img src="../img/eulalie_photo.png" alt="Photo Eulalie Moreau" class="pre-photo">
             </div>
+        </div>
 
+        <div class="m-position" id="pre-mobile">
+            <div class="pre-content pre-content-mobile">
+                <h1 class="pre-name">Eulalie Moreau</h1>
+                <img src="../img/eulalie_photo.png" alt="Photo Eulalie Moreau" class="pre-photo">
+            </div>
+            <div class="pre-content">
+                <h2>Design & Développement web</h2>
+                <p class="pre-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus augue ex, ac iaculis est vehicula non. Nullam nec tincidunt justo, nec tristique tortor</p>
+                <a href="contact.php" class="pre-contact cta">Me contacter</a>
+            </div>
         </div>
     </main>
 

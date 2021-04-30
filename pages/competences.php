@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/styles-competences.css">
+    <link rel="shortcut icon" href="../img/favicon.ico">
 </head>
 
 <body>
@@ -30,20 +31,24 @@
                 <div class="com-cards">
                     <div class="container">
                         <div class="card">
-                            <p>Définir les besoins</p>
-                            <img src="../pics/besoins.svg" alt="">
+                            <p>Définir les<br> 
+                            besoins</p>
+                            <img src="../img/besoins.svg" alt="">
                         </div>
                         <div class="card">
-                            <p>Déterminer la cible du projet</p>
-                            <img src="../pics/cible.svg" alt="">
+                            <p>Déterminer la cible<br> 
+                            du projet</p>
+                            <img src="../img/cible.svg" alt="">
                         </div>
                         <div class="card">
-                            <p>Étudier la conccurence</p>
-                            <img src="../pics/conccurence.svg" alt="">
+                            <p>Étudier la<br>
+                            conccurence</p>
+                            <img src="../img/conccurence.svg" alt="">
                         </div>
                         <div class="card">
-                            <p>Réaliser un benchmarking</p>
-                            <img src="../pics/benchmarking.svg" alt="">
+                            <p>Réaliser un<br>
+                            benchmarking</p>
+                            <img src="../img/benchmarking.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -54,20 +59,24 @@
                 <div class="com-cards">
                     <div class="container">
                         <div class="card">
-                            <p>Construire une arborescence</p>
-                            <img src="../pics/arborescence.svg" alt="">
+                            <p>Construire une<br>
+                            arborescence</p>
+                            <img src="../img/arborescence.svg" alt="">
                         </div>
                         <div class="card">
-                            <p>Élaborer une charte graphique</p>
-                            <img src="../pics/charte.svg" alt="">
+                            <p>Élaborer une<br>
+                            charte graphique</p>
+                            <img src="../img/charte.svg" alt="">
                         </div>
                         <div class="card">
-                            <p>Designer une maquette graphique</p>
-                            <img src="../pics/maquette.svg" alt="">
+                            <p>Designer une<br>
+                            maquette graphique</p>
+                            <img src="../img/maquette.svg" alt="">
                         </div>
                         <div class="card">
-                            <p>Logiciels : Adobe Xd, Figma, Gimp, Photoshop, Illustrator</p>
-                            <img src="../pics/logiciels.svg" alt="">
+                            <p>Logiciels : Adobe Xd, Figma,<br>
+                            Gimp, Photoshop, Illustrator</p>
+                            <img src="../img/logiciels.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -78,20 +87,24 @@
                 <div class="com-cards">
                     <div class="container">
                         <div class="card">
-                            <p>Intégration front-end HTML, CSS, JavaScript</p>
-                            <img src="../pics/front.svg" alt="">
+                            <p>Intégration front-end<br>
+                            HTML, CSS, JavaScript</p>
+                            <img src="../img/front.svg" alt="">
                         </div>
                         <div class="card">
-                            <p>Développement back-end PHP</p>
-                            <img src="../pics/back.svg" alt="">
+                            <p>Développement<br>
+                            back-end PHP</p>
+                            <img src="../img/back.svg" alt="">
                         </div>
                         <div class="card">
-                            <p>Création de site à l'aide de CMS</p>
-                            <img src="../pics/wordpress.svg" alt="">
+                            <p>Création de site<br>
+                            à l'aide de CMS</p>
+                            <img src="../img/wordpress.svg" alt="">
                         </div>
                         <div class="card">
-                            <p>Refonte de ste pré-existant</p>
-                            <img src="../pics/refonte.svg" alt="">
+                            <p>Refonte de site<br>
+                            pré-existant</p>
+                            <img src="../img/refonte.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -102,20 +115,24 @@
                 <div class="com-cards">
                     <div class="container">
                         <div class="card">
-                            <p>Audit qualité : Opquast, RGAA</p>
-                            <img src="../pics/qualite.svg" alt="">
+                            <p>Audit qualité :<br>
+                            Opquast, RGAA</p>
+                            <img src="../img/qualite.svg" alt="">
                         </div>
                         <div class="card">
-                            <p>Sécurité du site : recommandations OWASP</p>
-                            <img src="../pics/securite.svg" alt="">
+                            <p>Sécurité du site :<br>
+                            recommandations OWASP</p>
+                            <img src="../img/securite.svg" alt="">
                         </div>
                         <div class="card">
-                            <p>Navigation et ergonomie</p>
-                            <img src="../pics/ergo.svg" alt="">
+                            <p>Navigation et<br>
+                            ergonomie</p>
+                            <img src="../img/ergo.svg" alt="">
                         </div>
                         <div class="card">
-                            <p>Optimisation pour les moteurs de recherche</p>
-                            <img src="../pics/seo.svg" alt="">
+                            <p>Optimisation pour les<br>
+                            moteurs de recherche</p>
+                            <img src="../img/seo.svg" alt="">
                         </div>
                     </div>
                 </div>

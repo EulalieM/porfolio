@@ -1,7 +1,17 @@
+/*=========================================================
+PAGE CONTACT
+==========================================================*/
+
 .con-body {
     height: 100vh;
     background-color: #FAFAFA;
     color: var(--color-dark-blue);
+    display: flex;
+    flex-direction: column;
+}
+
+.con-main {
+    margin-bottom: auto;
 }
 
 .con-content {
@@ -21,7 +31,7 @@
 }
 
 .con-description {
-    margin: 80px 200px 50px 200px;
+    margin: 50px 200px 50px 200px;
     text-align: center;
 }
 
@@ -67,10 +77,4 @@
 
 .con-info img {
     margin-right: 40px;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }

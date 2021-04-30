@@ -1,12 +1,15 @@
 /*=========================================================
-CSS PAGE PRESENTATION
+PAGE PRESENTATION
 ==========================================================*/
 
 .pre-body {
     height: 100vh;
-    color: var(--color-dark-blue);
     display: flex;
     flex-direction: column;
+}
+
+.pre-main {
+    margin: auto;
 }
 
 .pre-content {
@@ -17,14 +20,103 @@ CSS PAGE PRESENTATION
     align-items: center;
 }
 
+.pre-name {
+    margin: 20px 0 20px 0;;
+}
+
 .pre-description {
     margin: 30px 0 30px 0;
 }
 
 .pre-contact {
-    margin: 30px 0 0 0;
+    margin: 15px 0 0 0;
 }
 
 .pre-photo {
     width: 470px;
 }
+
+/* --- Responsive --- */
+/* à refaire en JS pour que ce soit plus propre */
+
+@media screen and (min-width: 1261px) {
+    #pre-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    #pre-mobile {
+        display: none;
+    }
+    .pre-content {
+        max-width: 380px;
+    }
+    .pre-photo {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    #pre-desktop {
+        display: none;
+    }
+    #pre-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+    .pre-content {
+        max-width: 470px;
+    }
+    .pre-content-mobile {
+        display: flex;
+        flex-direction: row;
+    }
+    .pre-photo {
+        width: 235px;
+    }
+    h2 {
+        margin: 20px 0 20px 0;
+    }
+    .pre-description {
+        margin: 20px 0 20px 0;
+    }
+    .pre-contact {
+        margin: 20px 0 0 0;
+    }
+    header {
+        display: none; /* en attendant le menu burger */
+    }
+}
+
+@media screen and (max-width: 530px) { 
+    .pre-content-mobile {
+        flex-direction: column-reverse;
+    }
+    .pre-photo {
+        width: 200px;
+    }
+    .pre-content {
+        max-width: 370px;
+    }
+    .m-position {
+        max-width: 370px;
+    }
+}
+
+@media screen and (max-width: 410px) { 
+    .pre-content {
+        max-width: 310px;
+    }
+    .m-position {
+        max-width: 310px;
+    }
+}
+
+@media screen and (max-width: 320px){ 
+    .pre-content {
+        max-width: 290px;
+    }
+
+}
+
