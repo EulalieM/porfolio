@@ -6,6 +6,7 @@ COULEURS
     --color-blue: #037BC4;
     --color-dark-blue: #010C13;
     --color-background: #FAFAFA;
+    --color-white: white;
     --color-shadow: rgba(180, 180, 180, 50%);
 }
 
@@ -15,7 +16,7 @@ CUSTOM SCROLL BAR
 ==========================================================*/
 
 ::-webkit-scrollbar-track {
-    background-color: #f5f5f5e0;
+    background-color: var(--color-shadow);
 }
 
 ::-webkit-scrollbar {
@@ -36,6 +37,8 @@ CSS COMMUN
 body {
     background-color: var(--color-background);
     color: var(--color-dark-blue);
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -51,15 +54,6 @@ h2 {
     font-weight: 300;
     font-style: italic;
     margin: 10px 0 10px 0;
-}
-
-@media screen and (max-width: 1260px) {
-    h1 {
-        font-size: 50px;
-    }
-    h2 {
-        font-size: 30px;
-    }
 }
 
 a, button {
@@ -94,6 +88,7 @@ main {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 51px;
 }
 
 .m-position {
@@ -103,15 +98,9 @@ main {
     justify-content: space-between;
 }
 
-@media screen and (max-width: 1260px) {
-    .m-position {
-        max-width: 800px;
-    }
-}
-
 .cta {
     background-color: var(--color-blue);
-    color: white;
+    color: var(--color-white);
     width: 160px;
     height: 40px;
     border-radius: 25px;
@@ -124,7 +113,7 @@ main {
 }
 
 .cta:hover {
-    background-color: white;
+    background-color: var(--color-white);
     color: var(--color-blue);
     transition-duration: 0.5s
 }
@@ -134,8 +123,10 @@ CSS INCLUDE HEADER
 ==========================================================*/
 
 header {
-    background-color: white;
+    background-color: var(--color-white);
     box-shadow: 0px 1px 2px  var(--color-shadow);
+    position: fixed;
+    width: 100%;
 }
 
 .h-header {
@@ -163,28 +154,112 @@ header {
     font-style: italic;
 }
 
-/* responsive */
+/*=========================================================
+CSS INCLUDE BURGER-MENU
+==========================================================*/
+
+#h-mobile {
+    background-color: var(--color-white);
+    text-align: center;
+    display: none;
+}
+
+#h-mobile ul li {
+    margin: 40px;
+}
+
+#icone-burger {
+    display: none;
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    border: none;
+    outline-style:none;
+    cursor: pointer;
+}
+
+.fa-bars {
+    font-size: 25px;
+}
+
+.fa-times {
+    font-size: 25px;
+}
+
+/*=========================================================
+RESPONSIVE INCLUDE HEADER BURGER-MENU
+==========================================================*/
 
 @media screen and (min-width: 1261px) {
-
+    #h-mobile {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1260px) {
-    header {
+    .m-position {
+        max-width: 800px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .h-header {
+        max-width: 800px;
+    }
+    #h-mobile {
+        display: none;
+    }
+    #icone-burger {
         display: none;
     }
 }
 
 @media screen and (max-width: 860px) {
+    .h-header {
+        max-width: 470px;
+        margin: 5px auto 5px auto;
+    }
+    .h-nav {
+        display: none;
+    }
+    #icone-burger {
+        display: block;
+        /* z-index: 3; */
+    }
+    #h-mobile {
+        display: block;
+        width: 100%;
+        transform: translate(-100%);
+        position: fixed;
+        background-color: var(--color-white);
+        box-shadow: 0px 1px 2px  var(--color-shadow);
+        margin-top: 51px;
+        /* z-index: 2; */
+    }
+    #h-mobile.open {
+        /* transition: 1s; */
+        transform: translate(0);
+    }
 }
 
 @media screen and (max-width: 530px) { 
+    .h-header {
+        max-width: 370px;
+    }
 }
 
 @media screen and (max-width: 410px) { 
+    .h-header {
+        max-width: 310px;
+    }
 }
 
 @media screen and (max-width: 320px){ 
+    .h-header {
+        max-width: 290px;
+    }
 }
 
 
@@ -226,7 +301,9 @@ CSS INCLUDE FOOTER
     display: flex;
 }
 
-/* responsive */
+/*=========================================================
+RESPONSIVE INCLUDE FOOTER
+==========================================================*/
 
 @media screen and (min-width: 1261px) {
 

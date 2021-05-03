@@ -1,7 +1,5 @@
-<div class="h-header" id="h-desktop">
-    <a href="presentation.php" class="h-logo"><img src="../img/eulalie_photo_mini.png" alt=""></a>
-    <button id="icone-burger"><i id="icon" class="fas fa-bars"></i></button>
-    <nav class="h-nav">
+<div id="h-mobile">
+    <nav>
         <ul>
             <li><a href="presentation.php">Présentation</a></li>
             <li><a href="competences.php">Compétences</a></li>

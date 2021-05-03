@@ -4,8 +4,6 @@ PAGE PRESENTATION
 
 .pre-body {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 .pre-main {
@@ -83,9 +81,6 @@ PAGE PRESENTATION
     }
     .pre-contact {
         margin: 20px 0 0 0;
-    }
-    header {
-        display: none; /* en attendant le menu burger */
     }
 }
 

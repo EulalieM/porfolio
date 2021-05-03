@@ -21,6 +21,8 @@
         <?php include('../includes/header.php'); ?>
     </header>
 
+    <?php include('../includes/burger-menu.php'); ?>
+
     <main>
 
         <div>
@@ -144,6 +146,9 @@
     <footer>
         <?php include('../includes/footer.php'); ?>
     </footer>
+
+    <script src="https://kit.fontawesome.com/b6fad4163c.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../scripts/script.js"></script>
 
 </body>
 
