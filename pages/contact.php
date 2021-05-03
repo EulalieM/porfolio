@@ -55,6 +55,7 @@
                 <hr class="con-separator">
 
                 <div class="con-content">
+                    <h2>Formulaire de contact</h2>
                     <form action="">
 
                         <div class="con-form">

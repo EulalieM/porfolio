@@ -120,11 +120,13 @@ main {
     align-items: center;
     border: 2px solid var(--color-blue);
     box-shadow: 0 1px 3px 1px var(--color-shadow);
+    cursor: pointer;
 }
 
 .cta:hover {
     background-color: white;
     color: var(--color-blue);
+    transition-duration: 0.5s
 }
 
 /*=========================================================
@@ -187,7 +189,7 @@ header {
 
 
 /*=========================================================
-CSS INCLUDE HEADER
+CSS INCLUDE FOOTER
 ==========================================================*/
 
 .f-footer {
@@ -216,7 +218,8 @@ CSS INCLUDE HEADER
 }
 
 .f-icon:hover {
-    background-color: grey;
+    background-color: var(--color-blue); /* Trouver une couleur ou changer la couleur des icones */
+    transition-duration: 0.7s
 }
 
 .f-icon-position {
@@ -233,7 +236,6 @@ CSS INCLUDE HEADER
     .f-footer {
         max-width: 800px;
     }
-    
 }
 
 @media screen and (max-width: 860px) {

@@ -24,7 +24,7 @@
         <div>
             <h1>Mes réalisations</h1>
             
-            <div class="rea-project">
+            <div class="rea-project rea-project-right">
                 <div class="rea-description">
                     <h2>CES</h2>
                     <p>Projet fictif réalisé dans le cadre d’un test d’admission pour un Bachelor. Création et développement en version mobile d’un quiz sur le CES. Le respect du parcours utilisateur fourni et de la charte graphique était demandé.</p>
@@ -35,7 +35,7 @@
                 </div>
             </div>
 
-            <div class="rea-project">
+            <div class="rea-project rea-project-left">
                 <div class="rea-picture">
                     <img src="../img/mockup_macagette.png" alt="" class="rea-img">
                 </div>
@@ -46,7 +46,7 @@
                 </div>
             </div>
 
-            <div class="rea-project">
+            <div class="rea-project rea-project-right">
                 <div class="rea-description">
                     <h2>Kentucky Burger</h2>
                     <p>Projet fictif réalisé dans le cadre d’un exercice en formation. Création de l’identité visuelle et du site web du restaurant fictif Kentucky Burger dans un style de ranch américain.</p>

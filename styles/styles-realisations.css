@@ -27,3 +27,109 @@ PAGE REALISATIONS
 .rea-cta {
     margin: 10px 0 10px 0;
 }
+
+/* responsive */
+
+@media screen and (min-width: 1261px) {
+}
+
+@media screen and (max-width: 1260px) {
+    .rea-project {
+        width: 800px;
+        margin: 70px auto 70px auto;
+    }
+    .rea-description {
+        width: 380px;
+    }
+    .rea-picture {
+        width: 380px;
+    }
+    .rea-picture img {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .rea-project-right {
+        flex-direction: column;
+        align-items: center;
+    }
+    .rea-project-left {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .rea-project {
+        width: 600px;
+        margin: 40px auto 40px auto;
+    }
+    .rea-description {
+        width: 600px;
+    }
+    .rea-picture {
+        width: 600px;
+    }
+    .rea-picture img {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .rea-project {
+        width: 470px;
+    }
+    .rea-description {
+        width: 470px;
+    }
+    .rea-picture {
+        width: 470px;
+    }
+    .rea-picture img {
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 530px) { 
+    .rea-project {
+        width: 370px;
+        margin: 30px auto 30px auto;
+    }
+    .rea-description {
+        width: 370px;
+    }
+    .rea-picture {
+        width: 370px;
+    }
+    .rea-picture img {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 410px) { 
+    .rea-project {
+        width: 310px;
+    }
+    .rea-description {
+        width: 310px;
+    }
+    .rea-picture {
+        width: 310px;
+    }
+    .rea-picture img {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width: 320px) { 
+    .rea-project {
+        width: 280px;
+    }
+    .rea-description {
+        width: 280px;
+    }
+    .rea-picture {
+        width: 280px;
+    }
+    .rea-picture img {
+        width: 280px;
+    }
+}
