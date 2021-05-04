@@ -45,7 +45,7 @@ h1 {
     font-family: 'El Messiri', sans-serif;
     font-size: 70px;
     text-align: center;
-    margin: 40px 0 40px 0;
+    margin: 40px 0 25px 0;
 }
 
 h2 {
@@ -273,7 +273,6 @@ CSS INCLUDE FOOTER
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    margin-top: 40px;
 }
 
 .f-socialnetworks {

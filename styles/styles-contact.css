@@ -75,6 +75,41 @@ PAGE CONTACT
     margin-right: 40px;
 }
 
+.con-alert {
+    display: flex;
+    align-items: center;
+    border-left-style: solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right-style: none;
+    
+}
+
+.fas {
+    margin: auto 20px auto 20px;
+    font-size: 25px;
+}
+
+.con-error {
+    background-color: #FFDCB7;
+    color: #E67D00;
+    padding: 10px;
+}
+
+.con-error-icon {
+    display: flex;
+    height: 100%;
+}
+
+.con-error-text {
+    margin: auto 20px auto 20px;
+}
+
+.con-success {
+    background-color: #B6F2A3;
+    color: #208700;
+}
+
 /* responsive */
 
 @media screen and (min-width: 1261px) {

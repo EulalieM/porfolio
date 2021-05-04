@@ -1,3 +1,7 @@
+<?php 
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -58,41 +62,57 @@
 
                 <div class="con-content">
                     <h2>Formulaire de contact</h2>
-                    <form action="">
+
+                    <?php if (isset($_SESSION['errors'])): ?> 
+                        <div class="con-alert con-error">
+                            <div class="con-error-icon">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                            <p class="con-error-text"><?= implode('<br>', $_SESSION['errors']); ?></p>
+                        </div>
+                    <?php endif; ?>
+
+                    <?php if (isset($_SESSION['success'])): ?>
+                        <div class="con-alert con-success">
+                            <i class="fas fa-check-circle"></i>
+                            <p>Votre Email a bien été envoyé.</p>
+                        </div>
+                    <?php endif; ?>
+
+                    <form action="post_contact.php" method="POST">
 
                         <div class="con-form">
                             <div class="con-field">
-                                <label for="">Nom*</label>
-                                <input type="text" placeholder="Nom*" class="short-input">
+                                <label for="inputname">Nom*</label>
+                                <input type="text" id="inputname" name="name" placeholder="Nom*" class="short-input" value="<?= isset($_SESSION['inputs']['name']) ? $_SESSION['inputs']['name'] : ''; ?>">
                             </div>
 
                             <div class="con-field">
-                                <label for="">Email*</label>
-                                <input type="mail" placeholder="Email*" class="short-input">                    
+                                <label for="inputemail">Email*</label>
+                                <input type="mail" id="inputemail" name="email" placeholder="Email*" class="short-input" value="<?= isset($_SESSION['inputs']['email']) ? $_SESSION['inputs']['email'] : ''; ?>">                    
                             </div>
                         </div>
 
                         <div class="con-form">
                             <div class="con-field">
-                                <label for="">Téléphone</label>
-                                <input type="tel" placeholder="Téléphone" class="short-input">                    
+                                <label for="inputphone">Téléphone</label>
+                                <input type="tel" id="inputphone" name="phone" placeholder="Téléphone" class="short-input" value="<?= isset($_SESSION['inputs']['phone']) ? $_SESSION['inputs']['phone'] : ''; ?>">                    
                             </div>
 
                             <div class="con-field">
-                                <label for="">Société</label>
-                                <input type="text" placeholder="Société" class="short-input">                    
+                                <label for="inputcompany">Société</label>
+                                <input type="text" id="inputcompany" name="company" placeholder="Société" class="short-input" value="<?= isset($_SESSION['inputs']['company']) ? $_SESSION['inputs']['company'] : ''; ?>">                    
                             </div>
                         </div>
 
-
                         <div class="con-field">
-                            <label for="">Objet*</label>
-                            <input type="text" placeholder="Objet*" class="long-input">                    
+                            <label for="object">Objet*</label>
+                            <input type="text" id="inputobject" name ="object" placeholder="Objet*" class="long-input" value="<?= isset($_SESSION['inputs']['object']) ? $_SESSION['inputs']['object'] : ''; ?>">                    
                         </div>
 
                         <div class="con-field">
-                            <label for="">Message*</label>
-                            <textarea name="" id="" cols="55" rows="8" placeholder="Message*" class="long-input"></textarea>
+                            <label for="inputmessage">Message*</label>
+                            <textarea name="message" id="inputmessage" cols="55" rows="8" placeholder="Message*" class="long-input"><?= isset($_SESSION['inputs']['message']) ? $_SESSION['inputs']['message'] : ''; ?></textarea>
                         </div>
 
                         <div class="con-form-validate">
@@ -100,6 +120,7 @@
                             <button type="submit" class="cta">Envoyer</button>
                         </div>
                     </form>
+
                 </div>
 
             </div>
@@ -118,3 +139,9 @@
 </body>
 
 </html>
+
+<?php 
+unset($_SESSION['inputs']);
+unset($_SESSION['errors']);
+unset($_SESSION['success']);
+?>
