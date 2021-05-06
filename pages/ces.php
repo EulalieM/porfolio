@@ -27,17 +27,30 @@
             <h1>Consumer Electronics Show</h1>
             <div class="pro-description">
                 <p>Projet fictif réalisé dans le cadre d'un test d'entré en Bachelor. Création et développement d'un jeu en version mobile pour le CES avec respect du parcours utilisateur et de la charte graphique</p>
-                <ul class="pro-details">
-                    <li>Réalisations :<br> 
-                    Maquette fonctionnelle & maquette graphique, base de données, intégration version mobile</li>
-                    <li>Technologie utilisées :<br>
-                    Figma, MySQL/MariaDB, HTML/CSS, PHP</li>
-                </ul>
+                <div class="pro-details">   
+                    <div class="pro-detail">
+                        <p>Réalisations</p>
+                        <ul>
+                            <li>Maquette fonctionnelle & maquette graphique</li>
+                            <li>base de données</li>
+                            <li></i>intégration version mobile</li>
+                        </ul>
+                    </div>  
+                    <div class="pro-detail">
+                        <p>Technologies utilisées</p>
+                        <ul>
+                            <li>Figma</li>
+                            <li>MySQL/MariaDB</li>
+                            <li>HTML/CSS</li>
+                            <li></i>PHP</li>
+                        </ul>
+                    </div>           
+                </div>
             </div>
             <!-- <div class="pro-nav">
                 <span>|<a href="macagettecharentaise.php"> Projet suivant</a></span>
             </div> -->
-            <img src="../img/ces.png" alt="">
+            <img src="../img/ces.png" alt="" class="pro-mockup">
             <div class="pro-nav">
                 <span>|<a href="macagettecharentaise.php"> Projet suivant</a></span>
             </div>
