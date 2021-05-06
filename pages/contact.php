@@ -34,7 +34,7 @@ session_start();
 
             <p class="con-description">N'hésitez pas à me contacter pour davantage d'informations, pour échanger ou si vous êtes intéressé pour travailler ensemble !</p>
 
-            <div class="m-position con-position">
+            <div class="con-position">
 
                 <div class="con-content">
                     <h2>Informations de contact</h2>
