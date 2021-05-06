@@ -28,17 +28,27 @@
             <h1>Kentucky Burger</h1>
             <div class="pro-description">
                 <p>Projet fictif réalisé dans le cadre de ma formation. Création de l'identité visuelle et du site web du restaurant Kentucky Burger dans un style de ranch américain.</p>
-                <ul class="pro-details">
-                    <li>Réalisations :<br> 
-                    Charte graphique, maquette fonctionnelle & maquette graphique</li>
-                    <li>Technologies utilisées : <br>
-                    Adobe Xd</li>
-                </ul>
+                <div class="pro-details">
+                    <div class="pro-detail">
+                        <p>Réalisations</p>
+                        <ul>
+                            <li>Charte graphique</li>
+                            <li>maquette fonctionnelle & maquette graphique</li>
+                        </ul>
+
+                    </div>
+                    <div class="pro-detail">
+                        <p>Technologies utilisées</p>
+                        <ul>
+                            <li>Adobe Xd</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <!-- <div class="pro-nav">
                 <span><a href="macagettecharentaise.php">Projet précédent </a>|</span>
             </div> -->
-            <img src="../img/kentucky.png" alt="">
+            <img src="../img/kentucky.png" alt="" class="pro-mockup">
             <div class="pro-nav">
                 <span><a href="macagettecharentaise.php">Projet précédent </a>|</span>
             </div>

@@ -28,7 +28,7 @@
                 <h1 class="pre-name">Eulalie Moreau</h1>
                 <h2>Design &<br>
                 Développement web</h2>
-                <p class="pre-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus augue ex, ac iaculis est vehicula non. Nullam nec tincidunt justo, nec tristique tortor</p>
+                <p class="pre-description">Persévérante, passionnée et rigoureuse, je poursuis mes études en alternance et j'intègre un Bachelor développeur web en septembre 2021.</p>
                 <a href="contact.php" class="pre-contact cta">Me contacter</a>
             </div>
 

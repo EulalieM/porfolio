@@ -1,0 +1,52 @@
+/*=========================================================
+PAGE MENTIONS LEGALES
+==========================================================*/
+
+.ml-ul {
+    padding-left: 40px;
+}
+
+.ml-li {
+    list-style-type: disc;
+}
+
+/* --- Responsive --- */
+
+@media screen and (min-width: 1261px) {
+}
+
+@media screen and (max-width: 1260px) {
+    main {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    main {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    main {
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 530px) { 
+    main {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 410px) { 
+    main {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width: 320px){ 
+    main {
+        width: 280px;
+    }
+}
