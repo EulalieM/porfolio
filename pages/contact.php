@@ -79,7 +79,7 @@ session_start();
                         </div>
                     <?php endif; ?>
 
-                    <form action="post_contact.php" method="POST">
+                    <form action="post-contact.php" method="POST">
 
                         <div class="con-form">
                             <div class="con-field">

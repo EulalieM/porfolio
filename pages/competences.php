@@ -30,112 +30,96 @@
 
             <section class="competences">
                 <h2>Étude de marché</h2>
-                <div class="com-cards">
-                    <div class="container">
-                        <div class="card">
-                            <p>Définir les<br> 
-                            besoins</p>
+                    <div class="com-cards">
+                        <div class="com-card">
                             <img src="../img/besoins.svg" alt="">
+                            <p>Définir les besoins</p>                           
                         </div>
-                        <div class="card">
-                            <p>Déterminer la cible<br> 
-                            du projet</p>
+                        <div class="com-card">
                             <img src="../img/cible.svg" alt="">
-                        </div>
-                        <div class="card">
-                            <p>Étudier la<br>
-                            conccurence</p>
-                            <img src="../img/conccurence.svg" alt="">
-                        </div>
-                        <div class="card">
-                            <p>Réaliser un<br>
-                            benchmarking</p>
-                            <img src="../img/benchmarking.svg" alt="">
+                            <p>Déterminer la cible du projet</p>                           
                         </div>
                     </div>
-                </div>
+                    <div class="com-cards">
+                        <div class="com-card">
+                            <img src="../img/conccurence.svg" alt="">
+                            <p>Étudier la conccurence</p>                            
+                        </div>
+                        <div class="com-card">
+                            <img src="../img/benchmarking.svg" alt="">
+                            <p>Réaliser un benchmarking</p>                           
+                        </div>
+                    </div>
             </section>
                 
             <section class="competences">
                 <h2>Conception et design graphique</h2>
-                <div class="com-cards">
-                    <div class="container">
-                        <div class="card">
-                            <p>Construire une<br>
-                            arborescence</p>
-                            <img src="../img/arborescence.svg" alt="">
-                        </div>
-                        <div class="card">
-                            <p>Élaborer une<br>
-                            charte graphique</p>
-                            <img src="../img/charte.svg" alt="">
-                        </div>
-                        <div class="card">
-                            <p>Designer une<br>
-                            maquette graphique</p>
-                            <img src="../img/maquette.svg" alt="">
-                        </div>
-                        <div class="card">
-                            <p>Logiciels : Adobe Xd, Figma,<br>
-                            Gimp, Photoshop, Illustrator</p>
-                            <img src="../img/logiciels.svg" alt="">
-                        </div>
+                <div class="com-cards">                   
+                    <div class="com-card">
+                        <img src="../img/arborescence.svg" alt="">
+                        <p>Construire une arborescence</p>                        
                     </div>
+                    <div class="com-card">
+                        <img src="../img/charte.svg" alt="">
+                        <p>Élaborer une charte graphique</p>                       
+                    </div>
+                </div>
+                <div class="com-cards">
+                    <div class="com-card">
+                        <img src="../img/maquette.svg" alt="">
+                        <p>Designer une maquette graphique</p>                        
+                    </div>
+                    <div class="com-card">
+                        <img src="../img/logiciels.svg" alt="">
+                        <p>Logiciels : Adobe Xd, Figma, Gimp, Illustrator...</p>                        
+                    </div>                   
                 </div>
             </section>
 
             <section class="competences">
                 <h2>Intégration et développement web</h2>
                 <div class="com-cards">
-                    <div class="container">
-                        <div class="card">
-                            <p>Intégration front-end<br>
-                            HTML, CSS, JavaScript</p>
-                            <img src="../img/front.svg" alt="">
-                        </div>
-                        <div class="card">
-                            <p>Développement<br>
-                            back-end PHP</p>
-                            <img src="../img/back.svg" alt="">
-                        </div>
-                        <div class="card">
-                            <p>Création de site<br>
-                            à l'aide de CMS</p>
-                            <img src="../img/wordpress.svg" alt="">
-                        </div>
-                        <div class="card">
-                            <p>Refonte de site<br>
-                            pré-existant</p>
-                            <img src="../img/refonte.svg" alt="">
-                        </div>
+                    <div class="com-card">
+                        <img src="../img/front.svg" alt="">
+                        <p>Intégration front-end : HTML, CSS, JavaScript</p>                       
+                    </div>
+                    <div class="com-card">
+                        <img src="../img/back.svg" alt="">
+                        <p>Développement back-end : PHP</p>                      
                     </div>
                 </div>
+                <div class="com-cards">
+                    <div class="com-card">
+                        <img src="../img/wordpress.svg" alt="">
+                        <p>Création de site à l'aide de CMS : WordPress</p>                       
+                    </div>
+                    <div class="com-card">
+                        <img src="../img/refonte.svg" alt="">
+                        <p>Refonte de site pré-existant</p>                       
+                    </div>
+                </div>    
             </section>
 
             <section class="competences">
                 <h2>Expérience utilisateur et qualité web</h2>
                 <div class="com-cards">
-                    <div class="container">
-                        <div class="card">
-                            <p>Audit qualité :<br>
-                            Opquast, RGAA</p>
-                            <img src="../img/qualite.svg" alt="">
-                        </div>
-                        <div class="card">
-                            <p>Sécurité du site :<br>
-                            recommandations OWASP</p>
-                            <img src="../img/securite.svg" alt="">
-                        </div>
-                        <div class="card">
-                            <p>Navigation et<br>
-                            ergonomie</p>
-                            <img src="../img/ergo.svg" alt="">
-                        </div>
-                        <div class="card">
-                            <p>Optimisation pour les<br>
-                            moteurs de recherche</p>
-                            <img src="../img/seo.svg" alt="">
-                        </div>
+                    <div class="com-card">
+                        <img src="../img/qualite.svg" alt="">
+                        <p>Audit qualité : Opquast, RGAA</p>                       
+                    </div>
+                    <div class="com-card">
+                        <img src="../img/securite.svg" alt="">
+                        <p>Sécurité du site : OWASP</p>                        
+                    </div>
+                </div>
+                <div class="com-cards">
+                    <div class="com-card">
+                        <img src="../img/ergo.svg" alt="">
+                        <p>Navigation et ergonomie</p>                        
+                    </div>
+                    <div class="com-card">
+                        <img src="../img/seo.svg" alt="">
+                        <p>Optimisation pour les moteurs de recherche</p>                      
                     </div>
                 </div>
             </section>
@@ -149,6 +133,7 @@
 
     <script src="https://kit.fontawesome.com/b6fad4163c.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="../scripts/script.js"></script>
+    <script type="text/javascript" src="../scripts/script-competences.js"></script>
 
 </body>
 

@@ -9,24 +9,17 @@ PAGE COMPETENCES
 
 .com-cards {
     display: flex;
-    width: 1000px;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-}
-
-.container {
-    display: flex;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    width: 1000px;
+}
+
+.com-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     text-align: center;
-    width: 270px;
-    height: 340px;
+    width: 400px;
+    height: 200px;
     background-color: white;
     box-shadow: -2px 2px 2px 1px var(--color-shadow);
     margin: 30px;
@@ -34,12 +27,13 @@ PAGE COMPETENCES
     padding: 10px;
 }
 
-.card p {
-    font-size: 20px;
+.com-card img {
+    margin: 0 10px 0 0;
 }
 
-.card img {
-    margin: 15px 0px 0px 0px;
+.com-card p {
+    margin: 0 0 0 10px;
+    font-size: 20px;
 }
 
 /* --- Responsive --- */
@@ -55,12 +49,15 @@ PAGE COMPETENCES
     .com-cards {
         width: 800px;
     }
-    .card {
-        width: 230px;
-        height: 300px;
+    .com-card {
+        width: 350px;
+        height: 150px;
     }
-    .card img {
-        width: 190px;
+    .com-card img {
+        width: 150px;
+    }
+    .com-card p {
+        font-size: 18px;
     }
 }
 
@@ -71,17 +68,20 @@ PAGE COMPETENCES
         text-align: center;
     }
     .com-cards {
-        width: 600px;
+        width: 600px;      
     }
-    .card {
+    .com-card {
         width: 200px;
-        height: 270px;
+        height: 250px;
+        flex-direction: column;
     }
-    .card img {
+    .com-card img {
         width: 160px;
+        margin: 0;
     }
-    .card p {
+    .com-card p {
         font-size: 18px;
+        margin: 0;
     }
 }
 
@@ -93,7 +93,7 @@ PAGE COMPETENCES
     .com-cards {
         width: 470px;
     }
-    .card {
+    .com-card {
         margin: 15px;
     }
 }
@@ -106,13 +106,15 @@ PAGE COMPETENCES
     .com-cards {
         width: 370px;
     }
-    .card {
+    .com-card {
         width: 170px;
-        height: 240px;
-        margin: 15px;
+        height: 200px;
     }
-    .card img {
-        width: 130px;
+    .com-card img {
+        width: 110px;
+    }
+    .com-card p {
+        font-size: 16px;
     }
 }
 
@@ -127,8 +129,12 @@ PAGE COMPETENCES
     .com-cards {
         width: 310px;
     }
-    .card {
+    .com-card {
         margin: 10px;
+        height: 190px;
+    }
+    .com-card img {
+        width: 90px;
     }
 }
 
