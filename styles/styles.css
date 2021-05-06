@@ -53,12 +53,7 @@ h2 {
     font-size: 35px;
     font-weight: 300;
     font-style: italic;
-}
-
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+    margin: 10px 0 10px 0;
 }
 
 a, button {
@@ -76,18 +71,17 @@ a:active {
     color: var(--color-blue);
 }
 
-p, label, input, textarea, li {
+p, label, input, textarea {
     font-family: 'Open Sans', sans-serif;
     line-height: 25px;
-    list-style: none;
-}
-
-ul {
-    padding: 0;
 }
 
 input:focus, textarea:focus {
     outline: 0;
+}
+
+li {
+    list-style: none;
 }
 
 main {
@@ -219,13 +213,12 @@ RESPONSIVE INCLUDE HEADER BURGER-MENU
     }
     #icone-burger {
         display: none;
-        padding-left: 0;
     }
 }
 
 @media screen and (max-width: 860px) {
     .h-header {
-        max-width: 600px;
+        max-width: 470px;
         margin: 5px auto 5px auto;
     }
     .h-nav {
@@ -251,13 +244,6 @@ RESPONSIVE INCLUDE HEADER BURGER-MENU
     }
 }
 
-@media screen and (max-width: 680px) {
-    .h-header {
-        max-width: 470px;
-    }
-}
-
-
 @media screen and (max-width: 530px) { 
     .h-header {
         max-width: 370px;
@@ -272,7 +258,7 @@ RESPONSIVE INCLUDE HEADER BURGER-MENU
 
 @media screen and (max-width: 320px){ 
     .h-header {
-        max-width: 280px;
+        max-width: 290px;
     }
 }
 
@@ -332,19 +318,12 @@ RESPONSIVE INCLUDE FOOTER
     .f-footer {
         flex-direction: column;
         margin: 20px auto 20px auto;
-        max-width: 600px;
+        max-width: 470px;
     }
     .m-position {
-        max-width: 600px;
+        max-width: 470px;
     }
 }
-
-@media screen and (max-width: 680px) {
-    .f-footer {
-        width: 470px;
-    }
-}
-
 
 @media screen and (max-width: 530px) { 
     .f-footer {
@@ -374,6 +353,6 @@ RESPONSIVE INCLUDE FOOTER
 
 @media screen and (max-width: 320px){ 
     .f-footer {
-        max-width: 280px;
+        max-width: 290px;
     }
 }

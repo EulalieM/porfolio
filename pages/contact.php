@@ -32,7 +32,7 @@ session_start();
 
             <h1>Contact</h1>
 
-            <p class="con-description">N'hésitez pas à me contacter pour davantage d'informations, pour échanger ou si vous êtes intéressé pour travailler ensemble !</p>
+            <p class="con-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra eros eu maximus interdum. In malesuada placerat orci, et convallis lorem.</p>
 
             <div class="m-position con-position">
 

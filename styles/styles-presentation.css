@@ -19,7 +19,7 @@ PAGE PRESENTATION
 }
 
 .pre-name {
-    margin: 20px 0 5px 0;;
+    margin: 20px 0 20px 0;;
 }
 
 .pre-description {
@@ -35,6 +35,7 @@ PAGE PRESENTATION
 }
 
 /* --- Responsive --- */
+/* à refaire en JS pour que ce soit plus propre */
 
 @media screen and (min-width: 1261px) {
     #pre-mobile {
@@ -63,7 +64,7 @@ PAGE PRESENTATION
         flex-direction: column;
     }
     .pre-content {
-        max-width: 600px;
+        max-width: 470px;
     }
     .pre-content-mobile {
         display: flex;
@@ -80,16 +81,6 @@ PAGE PRESENTATION
     }
     .pre-contact {
         margin: 20px 0 0 0;
-    }
-}
-
-@media screen and (max-width: 680px) {
-    
-    .m-position {
-        width: 470px;
-    }
-    .pre-content {
-        max-width: 470px;
     }
 }
 
@@ -119,7 +110,7 @@ PAGE PRESENTATION
 
 @media screen and (max-width: 320px){ 
     .pre-content {
-        max-width: 280px;
+        max-width: 290px;
     }
 }
 

@@ -28,31 +28,17 @@
             <div class="pro-description">
                 <p>Projet réel réalisé dans le cadre d'un stage en entreprise. Création de l'identité visuelle et du site web Ma cagette Charentaise.<br> 
                 <span class="italic">À noter : le projet a été modifié et le site web actuel ne correspond plus à mon travail.</span></p>
-                <div class="pro-details">
-                    <div class="pro-detail">
-                        <p>Réalisations</p>
-                        <ul>
-                            <li>Charte graphique</li>
-                            <li>maquette fonctionnelle & maquette graphique</li>
-                            <li>intégration WordPress</li>
-                            <li>plugin WP sur-mesure</li>
-                        </ul>
-                    </div>
-                    <div class="pro-detail">
-                        <p>Technologies utilisées</p>
-                        <ul>
-                            <li>Figma</li>
-                            <li>WordPress</li>
-                            <li>HTML/CSS</li>
-                            <li>PHP</li>
-                        </ul>
-                    </div>
-                </div>
+                <ul class="pro-details">
+                    <li>Réalisations :<br> 
+                    Charte graphique, maquettes, intégration WordPress, plugin WP sur-mesure</li>
+                    <li>Technologies utilisées :<br>
+                    Figma, WordPress, HTML/CSS, PHP</li>
+                </ul>
             </div>
             <!-- <div class="pro-nav">
                 <span><a href="ces.php">Projet précédent </a>|<a href="kentuckyburger.php"> Projet suivant</a></span>
             </div>  -->
-            <img src="../img/macagette.png" alt="" class="pro-mockup">
+            <img src="../img/macagette.png" alt="">
             <div class="pro-nav">
                 <span><a href="ces.php">Projet précédent </a>|<a href="kentuckyburger.php"> Projet suivant</a></span>
             </div>

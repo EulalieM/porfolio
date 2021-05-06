@@ -20,96 +20,12 @@ PAGES PROJETS
 }
 
 .pro-details {
-    width: 600px;
     display: flex;
-    line-height: 25px;
-    justify-content: space-between;
-}
-
-.pro-detail {
-    width: 290px;
-}
-
-.pro-detail p {
     text-align: center;
+    line-height: 25px;
 }
 
 .pro-details li {
     width: 300px;
     margin: 0px 10px 0px 10px;
-    list-style: georgian inside url('../img/arrow.svg');
-}
-
-.pro-details li::marker {
-    font-size: 30px;
-}
-
-.pro-details ul {
-    list-style: georgian inside url('../img/arrow.svg');
-}
-
-/* responsive */
-
-@media screen and (min-width: 1261px) {
-}
-
-@media screen and (max-width: 1260px) {
-    main, .pro-mockup{
-        width: 800px;
-    }
-    .pro-description {
-        margin: 0px 100px 0px 100px;
-    }
-}
-
-@media screen and (max-width: 860px) {
-    main, .pro-mockup{
-        width: 600px;
-    }
-    .pro-description {
-        margin: 0;
-    }
-}
-
-@media screen and (max-width: 680px) {
-    main, .pro-mockup{
-        width: 470px;
-    }
-    .pro-description {
-        margin: 0;
-    }
-    .pro-details {
-        width: 470px;
-        flex-direction: column;
-    }
-    .pro-detail {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 530px) { 
-    main, .pro-mockup{
-        width: 370px;
-    }
-    .pro-details {
-        width: 370px;
-    }
-}
-
-@media screen and (max-width: 410px) { 
-    main, .pro-mockup{
-        width: 310px;
-    }
-    .pro-details {
-        width: 310px;
-    }
-}
-
-@media screen and (max-width: 320px){ 
-    main, .pro-mockup{
-        width: 280px;
-    }
-    .pro-details {
-        width: 280px;
-    }
 }
