@@ -9,9 +9,7 @@ $company = $_POST['company'];
 $object = $_POST['object'];
 $message = $_POST['message'];
 
-$message = "\nname: " . $name . "\ncompany: " . $company . "\nemail: " . $email . "\nphone: " . $phone . "\nobject: " . $object . "\nmessage: " . $message;
-
-// $headers = "FROM: $_POST['email']";
+$messages = "\nname: " . $name . "\ncompany: " . $company . "\nemail: " . $email . "\nphone: " . $phone . "\nobject: " . $object . "\nmessage: " . $message;
 
 // VERIFICATIONS ET MESSAGES D'ERREUR
 
@@ -40,6 +38,6 @@ if (!empty($errors)) {
     header('Location: contact.php');
 } else {
     $_SESSION['success'] = 1;
-    mail('eulaliemoreau.pro@gmail.com', $object, $message);
+    mail('eulaliemoreau.pro@gmail.com', $object, $messages);
     header('Location: contact.php');
 }

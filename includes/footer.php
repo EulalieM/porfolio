@@ -7,19 +7,19 @@
 
         <div class="f-icon">
             <a href="https://www.linkedin.com/in/eulaliemoreau/" class="f-icon-position">
-                <img src="../img/linkedin_icon.svg" alt="" >
+                <img src="img/f_linkedin.svg" alt="" >
             </a>
         </div>
 
         <div class="f-icon">
             <a href="https://www.instagram.com/eulalie_moreau_pro/" class="f-icon-position">
-                <img src="../img/instagram_icon.svg" alt="">
+                <img src="img/f_instagram.svg" alt="">
             </a>
         </div>
 
         <div class="f-icon">
             <a href="https://github.com/EulalieM" class="f-icon-position">
-                <img src="../img/github_icon.svg" alt="">
+                <img src="img/f_github.svg" alt="">
             </a>
         </div>
     </div>

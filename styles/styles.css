@@ -41,6 +41,11 @@ body {
     flex-direction: column;
 }
 
+main {
+    max-width: 1000px;
+    margin: 51px auto auto auto;
+}
+
 h1 {
     font-family: 'El Messiri', sans-serif;
     font-size: 70px;
@@ -61,6 +66,20 @@ h3 {
     font-weight: 400;
 }
 
+p, label, input, textarea, li {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+    list-style: none;
+}
+
+input:focus, textarea:focus {
+    outline: 0;
+}
+
+ul {
+    padding: 0;
+}
+
 a, button {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
@@ -70,38 +89,7 @@ a, button {
 
 a:hover {
     color: var(--color-blue);
-}
-
-a:active {
-    color: var(--color-blue);
-}
-
-p, label, input, textarea, li {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 25px;
-    list-style: none;
-}
-
-ul {
-    padding: 0;
-}
-
-input:focus, textarea:focus {
-    outline: 0;
-}
-
-main {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 51px;
-}
-
-.m-position {
-    width: 1000px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    transition-duration: 0.3s
 }
 
 .cta {
@@ -122,255 +110,4 @@ main {
     background-color: var(--color-white);
     color: var(--color-blue);
     transition-duration: 0.5s
-}
-
-/*=========================================================
-CSS INCLUDE HEADER
-==========================================================*/
-
-header {
-    background-color: var(--color-white);
-    box-shadow: 0px 1px 2px  var(--color-shadow);
-    position: fixed;
-    width: 100%;
-}
-
-.h-header {
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    align-items: center;
-}
-
-.h-logo {
-    margin-bottom: -3px;
-}
-
-.h-nav {
-    width: 500px;
-}
-
-.h-nav ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-.italic {
-    font-style: italic;
-}
-
-/*=========================================================
-CSS INCLUDE BURGER-MENU
-==========================================================*/
-
-#h-mobile {
-    background-color: var(--color-white);
-    text-align: center;
-    display: none;
-}
-
-#h-mobile ul li {
-    margin: 40px;
-}
-
-#icone-burger {
-    display: none;
-    background-color: var(--color-white);
-    color: var(--color-blue);
-    border: none;
-    outline-style:none;
-    cursor: pointer;
-}
-
-.fa-bars {
-    font-size: 25px;
-}
-
-.fa-times {
-    font-size: 25px;
-}
-
-/*=========================================================
-RESPONSIVE INCLUDE HEADER BURGER-MENU
-==========================================================*/
-
-@media screen and (min-width: 1261px) {
-    #h-mobile {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1260px) {
-    .m-position {
-        max-width: 800px;
-    }
-    h1 {
-        font-size: 50px;
-    }
-    h2 {
-        font-size: 30px;
-    }
-    .h-header {
-        max-width: 800px;
-    }
-    #h-mobile {
-        display: none;
-    }
-    #icone-burger {
-        display: none;
-        padding-left: 0;
-    }
-}
-
-@media screen and (max-width: 860px) {
-    .h-header {
-        max-width: 600px;
-        margin: 5px auto 5px auto;
-    }
-    .h-nav {
-        display: none;
-    }
-    #icone-burger {
-        display: block;
-        /* z-index: 3; */
-    }
-    #h-mobile {
-        display: block;
-        width: 100%;
-        transform: translate(-100%);
-        position: fixed;
-        background-color: var(--color-white);
-        box-shadow: 0px 1px 2px  var(--color-shadow);
-        margin-top: 51px;
-        /* z-index: 2; */
-    }
-    #h-mobile.open {
-        /* transition: 1s; */
-        transform: translate(0);
-    }
-}
-
-@media screen and (max-width: 680px) {
-    .h-header {
-        max-width: 470px;
-    }
-}
-
-@media screen and (max-width: 530px) { 
-    .h-header {
-        max-width: 370px;
-    }
-}
-
-@media screen and (max-width: 410px) { 
-    .h-header {
-        max-width: 310px;
-    }
-}
-
-@media screen and (max-width: 320px){ 
-    .h-header {
-        max-width: 280px;
-    }
-}
-
-/*=========================================================
-CSS INCLUDE FOOTER
-==========================================================*/
-
-.f-footer {
-    max-width: 1200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: auto;
-}
-
-.f-socialnetworks {
-    width: 140px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.f-icon {
-    display: flex;
-    height: 40px;
-    width: 40px;
-    background-color: var(--color-blue);
-    border-radius: 50%;
-    box-shadow: 0 1px 3px 1px var(--color-shadow);
-    justify-content: center;
-}
-
-.f-icon:hover {
-    background-color: var(--color-blue); /* Trouver une couleur ou changer la couleur des icones */
-    transition-duration: 0.7s
-}
-
-.f-icon-position {
-    display: flex;
-}
-
-/*=========================================================
-RESPONSIVE INCLUDE FOOTER
-==========================================================*/
-
-@media screen and (min-width: 1261px) {
-
-}
-
-@media screen and (max-width: 1260px) {
-    .f-footer {
-        max-width: 800px;
-    }
-}
-
-@media screen and (max-width: 860px) {
-    .f-footer {
-        flex-direction: column;
-        margin: 20px auto 20px auto;
-        max-width: 600px;
-    }
-    .m-position {
-        max-width: 600px;
-    }
-}
-
-@media screen and (max-width: 680px) {
-    .f-footer {
-        width: 470px;
-    }
-}
-
-@media screen and (max-width: 530px) { 
-    .f-footer {
-        flex-direction: column;
-        margin: 10px auto 10px auto;
-        max-width: 370px;
-    }
-    .f-text {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 410px) { 
-    .f-footer {
-        max-width: 310px;
-    }
-    h1 {
-        font-size: 40px;
-    }
-    h2 {
-        font-size: 26px;
-    }
-    .m-position {
-        max-width: 300px;
-    }
-}
-
-@media screen and (max-width: 320px){ 
-    .f-footer {
-        max-width: 280px;
-    }
 }

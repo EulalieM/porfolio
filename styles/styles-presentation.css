@@ -18,6 +18,13 @@ PAGE PRESENTATION
     align-items: center;
 }
 
+.pre-position {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .pre-name {
     margin: 20px 0 5px 0;;
 }
@@ -52,9 +59,18 @@ PAGE PRESENTATION
     .pre-photo {
         width: 380px;
     }
+    .pre-position {
+        max-width: 800px;
+    }
 }
 
 @media screen and (max-width: 860px) {
+    /* .pre-body {
+        height: 100%;
+    }
+    .pre-main {
+        margin: 51px auto auto auto;
+    } */
     #pre-desktop {
         display: none;
     }
@@ -81,11 +97,13 @@ PAGE PRESENTATION
     .pre-contact {
         margin: 20px 0 0 0;
     }
+    .pre-position {
+        max-width: 600px;
+    }
 }
 
 @media screen and (max-width: 680px) {
-
-    .m-position {
+    .pre-position {
         width: 470px;
     }
     .pre-content {
@@ -103,7 +121,7 @@ PAGE PRESENTATION
     .pre-content {
         max-width: 370px;
     }
-    .m-position {
+    .pre-position {
         max-width: 370px;
     }
 }
@@ -112,7 +130,7 @@ PAGE PRESENTATION
     .pre-content {
         max-width: 310px;
     }
-    .m-position {
+    .pre-position {
         max-width: 310px;
     }
 }

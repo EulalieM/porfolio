@@ -3,7 +3,12 @@ PAGES PROJETS
 ==========================================================*/
 
 .pro-description {
-    margin: 0px 200px 0px 200px;
+    width: 800px;
+    margin: auto;
+}
+
+.pro-description p {
+    text-align: center;
 }
 
 .pro-description ul {
@@ -14,34 +19,40 @@ PAGES PROJETS
     font-family: 'Open Sans', sans-serif;
 }
 
+.pro-cta {
+    margin: auto;
+}
+
 .pro-nav {
     text-align: center;
     margin: 25px 0 25px 0;
 }
 
 .pro-details {
-    width: 600px;
+    width: 800px;
     display: flex;
     line-height: 25px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .pro-detail {
+    margin: 20px;
     width: 290px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: -2px 2px 2px 1px var(--color-shadow);
+    border-radius: 25px;
+
 }
 
 .pro-detail p {
     text-align: center;
-}
-
-.pro-details ul {
-    list-style: georgian inside url('../img/arrow.svg');
+    font-weight: 600;
 }
 
 .pro-details li {
-    width: 300px;
     margin: 0px 10px 0px 10px;
-    list-style: georgian inside url('../img/arrow.svg');
+    line-height: 35px;
 }
 
 .pro-details li::marker {

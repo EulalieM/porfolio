@@ -1,0 +1,147 @@
+/*=========================================================
+CSS HEADER
+==========================================================*/
+
+header {
+    background-color: var(--color-white);
+    box-shadow: 0px 1px 2px  var(--color-shadow);
+    position: fixed;
+    width: 100%;
+}
+
+.h-header {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.h-logo {
+    margin-bottom: -3px;
+}
+
+.h-nav {
+    width: 500px;
+}
+
+.h-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/*=========================================================
+CSS BURGER-MENU
+==========================================================*/
+
+#h-mobile {
+    background-color: var(--color-white);
+    text-align: center;
+    display: none;
+}
+
+#h-mobile ul li {
+    margin: 40px;
+}
+
+#icone-burger {
+    display: none;
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    border: none;
+    outline-style:none;
+    cursor: pointer;
+}
+
+.fa-bars {
+    font-size: 25px;
+}
+
+.fa-times {
+    font-size: 25px;
+}
+
+/*=========================================================
+RESPONSIVE HEADER BURGER MENU
+==========================================================*/
+
+@media screen and (min-width: 1261px) {
+    #h-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .h-header {
+        max-width: 800px;
+    }
+    #h-mobile {
+        display: none;
+    }
+    #icone-burger {
+        display: none;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .h-header {
+        max-width: 600px;
+        margin: 5px auto 5px auto;
+    }
+    .h-nav {
+        display: none;
+    }
+    #icone-burger {
+        display: block;
+        /* z-index: 3; */
+    }
+    #h-mobile {
+        display: block;
+        width: 100%;
+        transform: translate(-100%);
+        position: fixed;
+        background-color: var(--color-white);
+        box-shadow: 0px 1px 2px  var(--color-shadow);
+        margin-top: 51px;
+        /* z-index: 2; */
+    }
+    #h-mobile.open {
+        /* transition: 1s; */
+        transform: translate(0);
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .h-header {
+        max-width: 470px;
+    }
+}
+
+@media screen and (max-width: 530px) { 
+    .h-header {
+        max-width: 370px;
+    }
+}
+
+@media screen and (max-width: 410px) { 
+    .h-header {
+        max-width: 310px;
+    }
+}
+
+@media screen and (max-width: 320px){ 
+    .h-header {
+        max-width: 280px;
+    }
+}
