@@ -68,7 +68,7 @@ session_start();
                         </div>
                         <div class="con-info">
                             <img src="img/linkedin.svg" alt="">
-                            <p><a href="https://www.linkedin.com/in/eulaliemoreau/">Linkedin</a></p>
+                            <p class="con-linkedin"><a href="https://www.linkedin.com/in/eulaliemoreau/">Linkedin</a></p>
                         </div>   
                     </div>
                 </div>

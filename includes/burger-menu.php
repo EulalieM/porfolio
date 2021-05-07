@@ -1,7 +1,7 @@
 <div id="h-mobile">
     <nav>
         <ul>
-            <li><a href="presentation.php">Présentation</a></li>
+            <li><a href="index.php">Présentation</a></li>
             <li><a href="competences.php">Compétences</a></li>
             <li><a href="realisations.php">Réalisations</a></li>
             <li><a href="contact.php">Contact</a></li>

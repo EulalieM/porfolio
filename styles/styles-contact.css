@@ -76,6 +76,10 @@ PAGE CONTACT
     margin: 15px 10px 15px 10px;;
 }
 
+.con-linkedin {
+    padding-top: 4px;
+}
+
 .con-info img {
     margin-right: 20px;
 }
@@ -210,7 +214,6 @@ PAGE CONTACT
     }
     .con-content {
         width: 310px;
-        margin: 0 10px 0 10px;
     }
     .short-input, .long-input {
         width: 310px;
@@ -227,7 +230,6 @@ PAGE CONTACT
     }
     .con-content {
         width: 280px;
-        margin: 0 10px 0 10px;
     }
     .short-input, .long-input {
         width: 280px;
