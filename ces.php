@@ -46,7 +46,7 @@
         <div>
             <h1>Consumer Electronics Show</h1>
             <div class="pro-nav">
-                <span>|<a href="macagettecharentaise.php"> Projet suivant</a></span>
+                <span>|<a href="macagettecharentaise"> Projet suivant</a></span>
             </div>
             <div class="pro-description">
                 <p >Projet fictif réalisé dans le cadre d'un test d'entré en Bachelor. Création et développement d'un jeu en version mobile pour le CES avec respect du parcours utilisateur et de la charte graphique</p>
@@ -73,7 +73,7 @@
             <!-- <a href="" class="pro-cta cta">Voir sur Github</a> -->
             <img src="img/ces.png" alt="" class="pro-mockup">
             <div class="pro-nav">
-                <span>|<a href="macagettecharentaise.php"> Projet suivant</a></span>
+                <span>|<a href="macagettecharentaise"> Projet suivant</a></span>
             </div>
         </div>
     </main>

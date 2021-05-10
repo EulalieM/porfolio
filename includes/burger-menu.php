@@ -1,10 +1,10 @@
 <div id="h-mobile">
     <nav>
         <ul>
-            <li><a href="index.php">Présentation</a></li>
-            <li><a href="competences.php">Compétences</a></li>
-            <li><a href="realisations.php">Réalisations</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="index">Présentation</a></li>
+            <li><a href="competences">Compétences</a></li>
+            <li><a href="realisations">Réalisations</a></li>
+            <li><a href="contact">Contact</a></li>
         </ul>
     </nav>
 </div>

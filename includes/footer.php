@@ -1,6 +1,6 @@
 <div class="f-footer">
     <div>
-        <p class="f-text"><span class="italic">Eulalie Moreau 2021 - Tous droits réservés</span> | <a href="mentionslegales.php">Mentions légales</a></p>
+        <p class="f-text"><span class="italic">Eulalie Moreau 2021 - Tous droits réservés</span> | <a href="mentionslegales">Mentions légales</a></p>
     </div>
 
     <div class="f-socialnetworks">

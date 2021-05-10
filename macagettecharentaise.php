@@ -46,7 +46,7 @@
         <div>
             <h1>Ma cagette Charentaise</h1>
             <div class="pro-nav">
-                <span><a href="ces.php">Projet précédent </a>|<a href="kentuckyburger.php"> Projet suivant</a></span>
+                <span><a href="ces">Projet précédent </a>|<a href="kentuckyburger"> Projet suivant</a></span>
             </div>
             <div class="pro-description">
                 <p>Projet réel réalisé dans le cadre d'un stage en entreprise. Création de l'identité visuelle et du site web Ma cagette Charentaise. <span class="italic">À noter : le projet a été modifié et le site web actuel ne correspond plus à mon travail.</span></p>
@@ -74,7 +74,7 @@
             <!-- <a href="" class="pro-cta cta">Voir sur Github</a> -->
             <img src="img/macagette.png" alt="" class="pro-mockup">
             <div class="pro-nav">
-                <span><a href="ces.php">Projet précédent </a>|<a href="kentuckyburger.php"> Projet suivant</a></span>
+                <span><a href="ces">Projet précédent </a>|<a href="kentuckyburger"> Projet suivant</a></span>
             </div>
         </div>
     </main>

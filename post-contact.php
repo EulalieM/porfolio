@@ -35,9 +35,9 @@ session_start();
 if (!empty($errors)) {
     $_SESSION['errors'] = $errors;
     $_SESSION['inputs'] = $_POST;
-    header('Location: contact.php');
+    header('Location: contact');
 } else {
     $_SESSION['success'] = 1;
     mail('eulaliemoreau.pro@gmail.com', $object, $messages);
-    header('Location: contact.php');
+    header('Location: contact');
 }

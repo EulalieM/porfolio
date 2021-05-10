@@ -51,7 +51,7 @@
                 <h2>Design &<br>
                 Développement web</h2>
                 <p class="pre-description">Persévérante, passionnée et rigoureuse, je poursuis mes études en alternance et j'intègre un Bachelor développeur web en septembre 2021.</p>
-                <a href="contact.php" class="pre-contact cta">Me contacter</a>
+                <a href="contact" class="pre-contact cta">Me contacter</a>
             </div>
             <div class="pre-content">
                 <img src="img/eulalie_photo.png" alt="Photo Eulalie Moreau" class="pre-photo">
@@ -65,7 +65,7 @@
             <div class="pre-content">
                 <h2>Design & Développement web</h2>
                 <p class="pre-description">Persévérante, passionnée et rigoureuse, je poursuis mes études en alternance et j'intègre un Bachelor développeur web en septembre 2021.</p>
-                <a href="contact.php" class="pre-contact cta">Me contacter</a>
+                <a href="contact" class="pre-contact cta">Me contacter</a>
             </div>
         </div>
     </main>
