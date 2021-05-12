@@ -7,6 +7,7 @@ header {
     box-shadow: 0px 1px 2px  var(--color-shadow);
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .h-header {
@@ -42,6 +43,7 @@ CSS BURGER-MENU
     background-color: var(--color-white);
     text-align: center;
     display: none;
+    z-index: 1;
 }
 
 #h-mobile ul li {
