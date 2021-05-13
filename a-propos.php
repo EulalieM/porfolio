@@ -47,12 +47,12 @@
             <h1>À propos</h1>
             <section class="pro-section">
                 <h2>Qui suis-je ?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra eros eu maximus interdum. In malesuada placerat orci, et convallis lorem. Nullam pretium nibh vel augue porttitor, sed scelerisque metus tincidunt. Ut convallis sapien a dolor pharetra, suscipit dictum neque lobortis. Fusce non eleifend velit, in dapibus neque.</p>
-                <a href="cv_eulalie_moreau.pdf" target="_blank" class="cta">Voir mon CV</a>
+                <p>Étant une enfant d'Internet, j'ai depuis toujours été attirée par les nouvelles technologies et le multimédia. Après avoir découvert plusieurs secteurs d'activité, je me suis finalement lancée et je me suis reconvertie dans le domaine du web. Aujourd'hui, je suis déterminée à poursuivre dans ce milieu et à continuer de me former pour concevoir et développer des applications web de qualité.</p>
+                <a href="img/CV_Eulalie_MOREAU.pdf" target="_blank" class="cta pro-cv">Voir mon CV <i class="fas fa-external-link-alt"></i></a>
             </section>
             <section class="pro-section">
                 <h2>Mes compétences</h2>
-                <div class="pro-content">
+                <div class="pro-content pro-content-left">
                     <img src="img/arborescence.svg" alt="" class="pro-img-left">
                     <div>
                         <h3>Conception de site web</h3>
@@ -62,12 +62,12 @@
                             <li>Étudier la <strong>conccurence</strong></li>
                             <li>Réaliser un <strong>benchmarking</strong></li>
                             <li>Définir l'<strong>arborescence</strong> et l'<strong>ergonomie</strong> du site</li>
-                        </ul> 
-                    </div>                      
+                        </ul>
+                    </div>
                 </div>
-                <div class="pro-content">
+                <div class="pro-content pro-content-right">
                     <div>
-                        <h3>Maquettage et design graphique d'interface</h3> 
+                        <h3>Maquettage et design graphique d'interface</h3>
                         <ul>
                             <li>Réaliser la maquette fonctionnelle</li>
                             <li>Réaliser la maquette graphique : <strong>Adobe Xd</strong>, <strong>Figma</strong></li>
@@ -77,7 +77,7 @@
                     </div>
                     <img src="img/maquette.svg" alt="" class="pro-img-right">
                 </div>
-                <div class="pro-content">
+                <div class="pro-content pro-content-left">
                     <img src="img/front.svg" alt="" class="pro-img-left">
                     <div>
                         <h3>Intégration et développement</h3>
@@ -89,7 +89,7 @@
                         </ul>   
                     </div>                       
                 </div>
-                <div class="pro-content">
+                <div class="pro-content pro-content-right">
                     <div>
                         <h3>Qualité web et expérience utilisateur</h3>
                         <ul>
@@ -99,7 +99,7 @@
                             <li>Optimiser pour les <strong>moteurs de recherche</strong></li>
                         </ul>  
                     </div>
-                    <img src="img/front.svg" alt="" class="pro-img-right">
+                    <img src="img/qualite.svg" alt="" class="pro-img-right">
                 </div>      
             </section>
             <section class="pro-section">
@@ -109,46 +109,41 @@
                     <div id="timeline">
                         <div class="timeline-item">
                             <div class="timeline-icon">
-                                <!-- icone -->
+                                <i class="fas fa-utensils"></i>
                             </div>
                             <div class="timeline-content">
-                                <h2>2012-2016</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.</p>
-                                <a href="#" class="cta">button</a>
+                                <h3>2012-2016 : Hôtellerie-Restauration-Pâtisserie</h3>
+                                <p>Ayant une appétence pour la pâtisserie, j'ai tout d'abord décidé de passer un Baccalauréat Technolgique Hôtellerie-Restauration suivi d'une Mention Complémentaire Cuisinier en Dessert de Restauration. J'ai réalisé plusieurs stages dans ce domaine durant ces formations.</p>
                             </div>
                         </div>
 
                         <div class="timeline-item">
                             <div class="timeline-icon">
-                                <!-- icone -->
+                                <i class="fas fa-book"></i>
                             </div>
                             <div class="timeline-content right">
-                                <h2>2016-2017</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.</p>
-                                <a href="#" class="cta">button</a>
+                                <h3>2016-2017 : Service civique</h3>
+                                <p>Afin de me réorienté, j'ai travaillé en Service Civique dans un collège en tant qu'aide-documentaliste : préparation d'expositions culturelles, encadrement des élèves, animations périscolaires.</p>
                             </div>
                         </div>
 
                         <div class="timeline-item">
                             <div class="timeline-icon">
-                                <!-- icone -->
+                                <i class="fas fa-hand-holding-medical"></i>
                             </div>
                             <div class="timeline-content">
-                                <h2>2017-2019</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.</p>
-                                <a href="#" class="cta">button</a>
+                                <h3>2017-2019 : Sanitaire et social</h3>
+                                <p>N'ayant pas réussi à me réorienté dans l'informatique, j'ai obtenu un BTS Services et Prestations des Secteurs Sanitaire et Social dans lequel j'ai appris la démarche qualité et la gestion de projet.</p>
                             </div>
                         </div>
 
                         <div class="timeline-item">
                             <div class="timeline-icon">
-                                <!-- icone -->
+                                <i class="fas fa-laptop-code"></i>
                             </div>
                             <div class="timeline-content right">
-                                <h2>2020</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.</p>
-                                <a href="#" class="cta">button</a>
+                                <h3>2020 : Développement web et web design</h3>
+                                <p>J'ai finalement réussi à me reconvertir dans le domaine du web et j'ai obtenu deux titres professionnels de niveau bac + 2 : <a href="https://www.francecompetences.fr/recherche/rncp/26602/" class="link">Web Designer</a> ainsi que <a href="https://www.francecompetences.fr/recherche/rncp/31114/" class="link">Développeur Web et Web Mobile</a>. Je me suis également formée à la qualité web et j'ai obtenu la certification <a href="https://www.opquast.com/certification/" class="link">Opquast</a> avec un niveau avancé.</p>
                             </div>
                         </div>
 

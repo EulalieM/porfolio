@@ -2,7 +2,7 @@
     <nav>
         <ul>
             <li><a href="index">Présentation</a></li>
-            <li><a href="competences">Compétences</a></li>
+            <li><a href="a-propos">À propos</a></li>
             <li><a href="realisations">Réalisations</a></li>
             <li><a href="contact">Contact</a></li>
         </ul>

@@ -71,6 +71,11 @@ PAGE CONTACT
     width: 460px;
 }
 
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-width: 0px 0px 2px 0px;
+    border-color: var(--color-blue);
+}
+
 .con-info {
     display: flex;
     margin: 15px 10px 15px 10px;;

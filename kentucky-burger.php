@@ -46,7 +46,7 @@
         <div>
             <h1>Kentucky Burger</h1>
             <div class="pro-nav">
-                <span><a href="macagettecharentaise">Projet précédent </a>|</span>
+                <span><a href="ma-cagette-charentaise">Projet précédent </a>|</span>
             </div>
             <div class="pro-description">
                 <p>Projet fictif réalisé dans le cadre de ma formation. Création de l'identité visuelle et du site web du restaurant Kentucky Burger dans un style de ranch américain.</p>
@@ -55,7 +55,7 @@
                         <p>Réalisations</p>
                         <ul>
                             <li>Charte graphique</li>
-                            <li>maquette fonctionnelle & maquette graphique</li>
+                            <li>Maquette fonctionnelle & maquette graphique</li>
                         </ul>
                     </div>
                     <div class="pro-detail">
@@ -69,7 +69,7 @@
             <!-- <a href="" class="pro-cta cta">Voir sur Github</a> -->
             <img src="img/kentucky.png" alt="" class="pro-mockup">
             <div class="pro-nav">
-                <span><a href="macagettecharentaise">Projet précédent </a>|</span>
+                <span><a href="ma-cagette-charentaise">Projet précédent </a>|</span>
             </div>
         </div>
     </main>

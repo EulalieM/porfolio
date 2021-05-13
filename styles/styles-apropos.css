@@ -13,12 +13,20 @@ PAGE COMPETENCES
     box-shadow: -2px 2px 2px 1px var(--color-shadow);
     margin: 60px auto 60px auto;
     border-radius: 25px;
-    padding: 10px;
+    padding: 16px;
     width: 800px;
     height: 250px;
     align-items: center;
 }
 
+.pro-cv {
+	margin: 30px auto;
+}
+
+.fa-external-link-alt {
+	font-size: 13px;
+	margin: 0 0 0 10px;
+}
 .pro-img-left {
     margin-right: 50px;
 }
@@ -36,7 +44,7 @@ header:after, .timeline-item:after, header:before, .timeline-item:before {
 	clear: both;
 }
 
-*, *:before, *:after {
+.container, #timeline, .timeline-item, .timeline-icon, .timeline-content, *:before, *:after {
 	box-sizing: border-box;
 }
 
@@ -85,10 +93,16 @@ header:after, .timeline-item:after, header:before, .timeline-item:before {
 	border-radius: 50%;
 }
 
-.timeline-icon svg {
+.timeline-icon i {
 	position: relative;
-	top: 14px;
-	left: 14px;
+	top: 15px;
+	left: 15px;
+	color: white;
+	font-size: 20px;
+}
+
+.timeline-icon .fa-laptop-code {
+	left: 13px;
 }
 
 .timeline-content {
@@ -99,7 +113,7 @@ header:after, .timeline-item:after, header:before, .timeline-item:before {
 	border-radius: 5px;
 }
 
-.timeline-content h2 {
+.timeline-content h3 {
 	padding: 15px;
 	background: var(--color-blue);
 	color: #fff;
@@ -140,15 +154,21 @@ header:after, .timeline-item:after, header:before, .timeline-item:before {
         width: 800px;
         margin: 70px auto 70px auto;
     }
-
+	.pro-content {
+		width: 700px;
+		height: 250px;
+	}
 }
 
 @media screen and (max-width: 860px) {
     .pro-section {
         width: 600px;
         margin: 70px auto 70px auto;
-        text-align: center;
     }
+	.pro-content {
+		width: 600px;
+		height: 250px;
+	}
     #timeline {
 		margin: 30px;
 		padding: 0px;
@@ -177,6 +197,23 @@ header:after, .timeline-item:after, header:before, .timeline-item:before {
         width: 470px;
         margin: 70px auto 70px auto;
     }
+	.pro-content {
+		width: 360px;
+		height: 400px;
+		align-items: center;
+	}
+	.pro-content h3 {
+		text-align: center;
+	}
+	.pro-content-left {
+		flex-direction: column;
+	}
+	.pro-img-left, .pro-img-right {
+		margin: 0;
+	}
+	.pro-content-right {
+		flex-direction: column-reverse;
+	}
 }
 
 @media screen and (max-width: 530px) { 
@@ -184,7 +221,19 @@ header:after, .timeline-item:after, header:before, .timeline-item:before {
         width: 370px;
         margin: 70px auto 70px auto;
     }
-
+	.pro-content {
+		width: 300px;
+		height: 450px;
+	}
+	.timeline-content {
+		padding: 20px 20px 20px 30px;
+	}
+	.timeline-content:before, .timeline-content.right:before {
+		margin-left: 4px;
+	}
+	h2 {
+		text-align: center;
+	}
 }
 
 @media screen and (max-width: 410px) { 
@@ -195,16 +244,25 @@ header:after, .timeline-item:after, header:before, .timeline-item:before {
         width: 310px;
         margin: 40px auto 40px auto;
     }
-
+	.pro-content {
+		width: 270px;
+		height: 450px;
+	}
 }
 
 @media screen and (max-width: 320px){ 
     h1 {
         margin: 40px 10px 40px 10px;
     }
-    .competences {
+    .pro-section {
         width: 280px;
         margin: 30px auto 30px auto;
     }
-
+	.pro-content {
+		width: 250px;
+		height: 450px;
+	}
+	#timeline {
+		margin: 20px;
+	}
 }

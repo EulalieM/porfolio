@@ -62,14 +62,14 @@
                 <div class="rea-description">
                     <h2 class="rea-h2">Ma cagette Charentaise</h2>
                     <p>Projet réel réalisé dans le cadre d’un stage au sein de la société Les Jardins de l’Osme. Création de l’identité visuelle et du site web de Ma cagette Charentaise.</p>
-                    <a href="macagettecharentaise" class="rea-cta cta">Voir le projet</a>
+                    <a href="ma-cagette-charentaise" class="rea-cta cta">Voir le projet</a>
                 </div>
             </div>
             <div class="rea-project rea-project-right">
                 <div class="rea-description">
                     <h2 class="rea-h2">Kentucky Burger</h2>
                     <p>Projet fictif réalisé dans le cadre d’un exercice en formation. Création de l’identité visuelle et du site web du restaurant fictif Kentucky Burger dans un style de ranch américain.</p>
-                    <a href="kentuckyburger" class="rea-cta cta">Voir le projet</a>
+                    <a href="kentucky-burger" class="rea-cta cta">Voir le projet</a>
                 </div>
                 <div class="rea-picture">
                     <img src="img/mockup_kentucky.png" alt="" class="rea-img">

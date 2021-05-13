@@ -92,6 +92,10 @@ a:hover {
     transition-duration: 0.3s
 }
 
+.link {
+    color: var(--color-blue);
+}
+
 .cta {
     background-color: var(--color-blue);
     color: var(--color-white);
