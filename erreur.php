@@ -19,7 +19,7 @@
     <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
-<body class="pre-body">
+<body>
 
     <header>
         <?php include('includes/header.php'); ?>
