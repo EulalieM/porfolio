@@ -64,7 +64,7 @@ session_start();
                         </div>
                         <div class="con-info">
                             <img src="img/tel.svg" alt="">
-                            <p><a href="tel:+615701564">06 15 70 15 64</a></p>
+                            <p><a href="tel:+33651946964">06 51 94 69 64</a></p>
                         </div>
                         <div class="con-info">
                             <img src="img/linkedin.svg" alt="">
