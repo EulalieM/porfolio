@@ -1,0 +1,50 @@
+name: Docker
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - v*
+
+  pull_request:
+
+env:
+  IMAGE_NAME: eulalie-moreau:prod
+
+jobs:
+  push:
+
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build image
+        run: docker build . --file Dockerfile --tag ${{ secrets.DOCKER_HOST }}/$IMAGE_NAME
+
+      - name: Log into registry
+        run: docker login ${{ secrets.DOCKER_HOST }} -u ${{ secrets.DOCKER_USER }} -p ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Push image
+        run: docker push ${{ secrets.DOCKER_HOST }}/$IMAGE_NAME
+      
+  deploy:
+    needs: push
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    
+    steps:
+      - name: update container from ssh
+        uses: garygrossgarten/github-action-ssh@release
+        with:
+          command: sh /var/docker/EulalieMoreau/deploy.sh
+          host: ${{ secrets.SSH_HOST }}
+          port: ${{ secrets.SSH_PORT }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.SSH_PASSWORD }}

@@ -12,7 +12,7 @@
         </div>
 
         <div class="f-icon">
-            <a href="https://www.instagram.com/eulalie_moreau_pro/" class="f-icon-position">
+            <a href="https://www.instagram.com/eulaliemoreau.pro/" class="f-icon-position">
                 <img src="img/f_instagram.svg" alt="">
             </a>
         </div>
