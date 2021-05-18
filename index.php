@@ -47,7 +47,7 @@
     <main class="pre-main">
         <div class="pre-position" id="pre-desktop">
             <div class="pre-content">
-                <h1 class="pre-name">Eulalie Moreau</h1>
+                <h1 class="pre-name">Moreau</h1>
                 <h2>Design &<br>
                 Développement web</h2>
                 <p class="pre-description">Persévérante, passionnée et rigoureuse, je poursuis mes études en alternance et j'intègre un Bachelor développeur web en septembre 2021.</p>
