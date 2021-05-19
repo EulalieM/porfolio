@@ -34,6 +34,10 @@ CUSTOM SCROLL BAR
 CSS COMMUN
 ==========================================================*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--color-background);
     color: var(--color-dark-blue);
@@ -43,7 +47,7 @@ body {
 
 main {
     max-width: 1000px;
-    margin: 51px auto auto auto;
+    margin: 57px auto auto auto;
 }
 
 h1 {

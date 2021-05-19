@@ -1,9 +1,14 @@
 /*=========================================================
-PAGE COMPETENCES
+PAGE INDEX A PROPOS
 ==========================================================*/
 
 .pro-section {
-    margin-bottom: 70px;
+    margin: 100px auto 100px auto;
+}
+
+#section1 {
+	padding-top: 60px;
+	margin: auto auto 100px auto;
 }
 
 .pro-content {
@@ -17,6 +22,7 @@ PAGE COMPETENCES
     width: 800px;
     height: 250px;
     align-items: center;
+	box-sizing: border-box;
 }
 
 .pro-cv {
@@ -152,7 +158,7 @@ header:after, .timeline-item:after, header:before, .timeline-item:before {
 @media screen and (max-width: 1260px) {
     .pro-section {
         width: 800px;
-        margin: 70px auto 70px auto;
+        margin: 100px auto 100px auto;
     }
 	.pro-content {
 		width: 700px;
@@ -168,6 +174,10 @@ header:after, .timeline-item:after, header:before, .timeline-item:before {
 	.pro-content {
 		width: 600px;
 		height: 250px;
+	}
+	#section1 {
+		padding-top: 57px;
+		margin: auto auto 100px auto;
 	}
     #timeline {
 		margin: 30px;

@@ -70,7 +70,7 @@
                     </div>           
                 </div>
             </div>
-            <!-- <a href="" class="pro-cta cta">Voir sur Github</a> -->
+            <a href="https://github.com/EulalieM/jeu_ces" class="pro-cta cta">Voir sur Github</a>
             <img src="img/ces.png" alt="" class="pro-mockup">
             <div class="pro-nav">
                 <span>|<a href="ma-cagette-charentaise"> Projet suivant</a></span>

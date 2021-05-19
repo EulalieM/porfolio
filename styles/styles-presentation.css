@@ -1,12 +1,11 @@
 /*=========================================================
-PAGE PRESENTATION
+PAGE INDEX PRESENTATION
 ==========================================================*/
 
-.pre-body {
-    height: 100vh;
-}
-
 .pre-main {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
     margin: auto;
 }
 
@@ -23,6 +22,8 @@ PAGE PRESENTATION
     display: flex;
     align-items: center;
     justify-content: space-between;
+    display: flex;
+    margin: auto;
 }
 
 .pre-name {
@@ -39,6 +40,12 @@ PAGE PRESENTATION
 
 .pre-photo {
     width: 470px;
+}
+
+.pre-chevron {
+    width: 32px;
+    display: flex;
+    margin: 0 auto 0 auto;
 }
 
 /* --- Responsive --- */
@@ -65,12 +72,20 @@ PAGE PRESENTATION
 }
 
 @media screen and (max-width: 860px) {
-    .pre-body {
-        height: 100%;
-    }
+
     .pre-main {
-        margin: 71px auto 31px auto;
+        height: 100%;
+        margin: 30px auto 30px auto;
     }
+
+    .pre-chevron {
+        margin-top: 50px;
+    }
+
+    #section1 {
+        padding-top: 0;
+    }
+
     #pre-desktop {
         display: none;
     }

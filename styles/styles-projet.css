@@ -4,7 +4,7 @@ PAGES PROJETS
 
 .pro-description {
     width: 800px;
-    margin: auto;
+    margin: 50px auto;
 }
 
 .pro-description p {
@@ -25,7 +25,7 @@ PAGES PROJETS
 
 .pro-nav {
     text-align: center;
-    margin: 25px 0 25px 0;
+    margin: 50px auto;
 }
 
 .pro-details {
