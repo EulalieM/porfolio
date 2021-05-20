@@ -1,5 +1,14 @@
 <?php
 
+require ('includes/config.php');
+
+require ('lib/phpmailer/src/Exception.php');
+require ('lib/phpmailer/src/PHPMailer.php');
+require ('lib/phpmailer/src/SMTP.php');
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
 $errors = [];
 
 $name = $_POST['name'];
@@ -9,7 +18,7 @@ $company = $_POST['company'];
 $object = $_POST['object'];
 $message = $_POST['message'];
 
-$messages = "\nname: " . $name . "\ncompany: " . $company . "\nemail: " . $email . "\nphone: " . $phone . "\nobject: " . $object . "\nmessage: " . $message;
+$messages = "<br>name: " . $name . "<br>company: " . $company . "<br>email: " . $email . "<br>phone: " . $phone . "<br>object: " . $object . "<br>message: " . $message;
 
 // VERIFICATIONS ET MESSAGES D'ERREUR
 
@@ -38,10 +47,23 @@ if (!empty($errors)) {
     header('Location: contact');
 } else {
     $_SESSION['success'] = 1;
-    if(mail('eulaliemoreau.pro@gmail.com', $object, $messages)) {
+    $mail = new PHPMailer;
+    $mail->isSMTP();
+    $mail->SMTPDebug = 1;
+    $mail->Host = getenv('MAILSERV');
+    $mail->Port = 587;
+    $mail->SMTPSecure = 'tls';
+    $mail->SMTPAuth = true;
+    $mail->Username = getenv('MAILFROM');
+    $mail->Password = getenv('PASSWORD');
+    $mail->SetFrom(getenv('MAILFROM'), 'Eulalie Moreau - Portfolio');
+    $mail->addAddress(getenv('MAILTO'));
+    $mail->Subject = $object;
+    $mail->Body = $messages;
+    $mail->AltBody = $messages;
+    if($mail->send()) {
         header('Location: contact');
     } else {
-        echo 'error';
+        echo $mail->ErrorInfo;
     }
-    
 }
