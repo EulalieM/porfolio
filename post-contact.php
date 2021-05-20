@@ -49,7 +49,7 @@ if (!empty($errors)) {
     $_SESSION['success'] = 1;
     $mail = new PHPMailer;
     $mail->isSMTP();
-    $mail->SMTPDebug = 1;
+    $mail->SMTPDebug = 0;
     $mail->Host = getenv('MAILSERV');
     $mail->Port = 587;
     $mail->SMTPSecure = 'tls';
