@@ -77,7 +77,7 @@
         <section id="section1" class="pro-section">
                 <h2>Qui suis-je ?</h2>
                 <p>Étant une enfant d'Internet, j'ai depuis toujours été attirée par les nouvelles technologies et le multimédia. Après avoir découvert plusieurs secteurs d'activité, je me suis finalement lancée et je me suis reconvertie dans le domaine du web. Aujourd'hui, je suis déterminée à poursuivre dans ce milieu et à continuer de me former pour concevoir et développer des applications web de qualité.</p>
-                <a href="img/CV_Eulalie_Moreau.pdf" target="_blank" class="cta pro-cv">Voir mon CV <i class="fas fa-external-link-alt"></i></a>
+                <a href="pdf/CV_Eulalie_Moreau.pdf" target="_blank" class="cta pro-cv">Voir mon CV <i class="fas fa-external-link-alt"></i></a>
             </section>
             <section class="pro-section">
                 <h2>Mes compétences</h2>
