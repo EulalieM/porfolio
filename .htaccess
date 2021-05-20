@@ -3,4 +3,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
 # en local : ErrorDocument 404 /portfolio/erreur.php
-ErrorDocument 404 https://eulalie.sitesweb-angouleme.fr/erreur.php
+ErrorDocument 404 https://eulalie-moreau.fr/erreur.php
