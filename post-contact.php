@@ -38,6 +38,10 @@ if (!empty($errors)) {
     header('Location: contact');
 } else {
     $_SESSION['success'] = 1;
-    mail('eulaliemoreau.pro@gmail.com', $object, $messages);
-    header('Location: contact');
+    if(mail('eulaliemoreau.pro@gmail.com', $object, $messages)) {
+        header('Location: contact');
+    } else {
+        echo 'error';
+    }
+    
 }
