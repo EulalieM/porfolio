@@ -78,8 +78,8 @@ PAGE INDEX PRESENTATION
         margin: 30px auto 30px auto;
     }
 
-    .pre-chevron {
-        margin-top: 50px;
+    .pre-ancre {
+        display: none;
     }
 
     #section1 {
